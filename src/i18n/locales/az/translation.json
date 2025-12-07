@@ -1,0 +1,64 @@
+{
+  "nav": {
+    "home": "Ana səhifə",
+    "menu": "Menyu",
+    "about": "Haqqımızda",
+    "contact": "Əlaqə"
+  },
+  "home": {
+    "hero_title": "Qutabxana N1-ə Xoş Gəlmisiniz",
+    "hero_subtitle": "Ən dadlı və təzə qutablar burada!",
+    "view_menu": "Menyuya Bax",
+    "contact_us": "Bizimlə Əlaqə",
+    "our_location": "Ünvanımız",
+    "location_text": "Nizami küçəsi, Neftçilər və Qara Qarayev metro stansiyaları arasında",
+    "updated_menu": "Yeniləmişmiş menyumuzla xidmətinizdəyik!",
+    "our_qutabs": "Bizim Ən Dadlı Qutablarımız",
+    "qutab_green": "Göyərtili Qutab",
+    "qutab_meat": "Ətli Qutab",
+    "qutab_cheese": "Pendirli Qutab",
+    "wide_variety": "Geniş çeşidlərlə ləzzətli qutablar",
+    "fast_service": "Sürətli Xidmət",
+    "fast_preparation": "Tez və keyfiyyətli hazırlanma",
+    "fresh_products": "Təzə Məhsullar",
+    "daily_fresh": "Hər gün təzə tədarük olunan məhsullar"
+  },
+  "menu": {
+    "title": "Bizim Menyu",
+    "order_button": "Sifariş et",
+    "categories": {
+      "qutabs": "Qutablar",
+      "fried": "Pirojkilər",
+      "sauces": "Souslar",
+      "beverages": "İçkilər",
+      "desserts": "Desertlər",
+      "dairy": "Süd və Süd Məhsulları"
+    }
+  },
+  "about": {
+    "title": "Haqqımızda",
+    "description": "Qutabxana N1 Azərbaycanın ən dadlı qutablarını hazırlayan restoranlardandır. Biz təzə və keyfiyyətli məhsullardan istifadə edərək, müştərilərimizə ən yaxşı xidməti təqdim edirik. Hər bir qutab sevgi və qayğı ilə hazırlanır.",
+    "our_mission": "Bizim Missiyamız",
+    "mission_text": "Ənənəvi Azərbaycan mətbəxini müasir üslubda təqdim etmək və hər bir müştəriyə xoş dad və təcrübə yaşatmaqdır. Biz yalnız ən keyfiyyətli və təzə məhsullardan istifadə edirik, hər bir qutab sevgi və qayğı ilə hazırlanır. Reseptlərimiz nəsildən-nəslə ötürülən ənənəvi üsullarla müasir kulinariya texnikalarını birləşdirir. Məqsədimiz sadəcə qida təqdim etmək deyil, hər bir ziyarətçiyə unudulmaz kulinariya səyahəti yaşatmaqdır."
+  },
+  "contact": {
+    "title": "Bizimlə Əlaqə",
+    "phone": "Telefon",
+    "whatsapp": "WhatsApp-la yaz",
+    "location": "Ünvan",
+    "address": "Nizami küç., Neftçilər və Qara Qarayev m/s arası",
+    "order_whatsapp": "WhatsApp ilə sifariş et",
+    "contact_info": "Əlaqə Məlumatları",
+    "online_order": "Online Sifariş",
+    "order_now": "Sifariş et",
+    "working_hours": "İş Saatları",
+    "hours": "Bazar ertəsi - Bazar: 09:00 - 20:00"
+  },
+  "footer": {
+    "copyright": "© 2025 QUTABXANA N1. Bütün hüquqlar qorunur.",
+    "order_online": "Sifariş et",
+    "location_label": "Ünvan",
+    "phone_label": "Telefon",
+    "social_media": "Sosial Media"
+  }
+}
