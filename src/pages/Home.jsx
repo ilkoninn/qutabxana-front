@@ -4,75 +4,136 @@ import home1 from '../assets/home/home1.jpg';
 import qutab1 from '../assets/menu/qutabs/img1.png';
 import qutab2 from '../assets/menu/qutabs/img2.png';
 import qutab3 from '../assets/menu/qutabs/img3.png';
-import boltLogo from '../assets/bolt-food.png';
-import woltLogo from '../assets/wolt-food.png';
+import qutab7 from '../assets/menu/qutabs/img7.png';
+import pirojki1 from '../assets/menu/pirojkis/img1.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 const Home = () => {
   const { t } = useTranslation();
 
+  // Use different images for each slide (pre-selected variety)
+  const slides = [
+    {
+      key: 'qutab_set_1',
+      title: t('home.slider.qutab_set_1.title'),
+      description: t('home.slider.qutab_set_1.description'),
+      price: t('home.slider.qutab_set_1.price'),
+      images: [qutab2, qutab1, qutab3],
+    },
+    {
+      key: 'nafarliq_set_3',
+      title: t('home.slider.nafarliq_set_3.title'),
+      description: t('home.slider.nafarliq_set_3.description'),
+      price: t('home.slider.nafarliq_set_3.price'),
+      images: [qutab7, qutab2, qutab1],
+    },
+    {
+      key: 'nafarliq_set_4',
+      title: t('home.slider.nafarliq_set_4.title'),
+      description: t('home.slider.nafarliq_set_4.description'),
+      price: t('home.slider.nafarliq_set_4.price'),
+      images: [pirojki1, qutab3, qutab7],
+    },
+  ];
+
   return (
-    <div className="min-h-screen">
-      {/* Hero Section */}
-      <section className="bg-gradient-to-br from-cream to-white py-20 px-4 overflow-hidden">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4 animate-fade-in-up">
-            {t('home.hero_title')}
-          </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-4 animate-fade-in-up animation-delay-200">
-            {t('home.hero_subtitle')}
-          </p>
-          
-          {/* Location Info */}
-          <div className="bg-primary bg-opacity-10 border-2 border-primary rounded-2xl p-6 max-w-2xl mx-auto mb-8 animate-fade-in-up animation-delay-400">
-            <p className="text-lg font-semibold text-gray-800 mb-2">
-              📍 {t('home.our_location')}
-            </p>
-            <p className="text-gray-700">
-              {t('home.location_text')}
-            </p>
-            <p className="text-primary font-semibold mt-2">
-              {t('home.updated_menu')}
-            </p>
+    <div className="min-h-screen overflow-x-hidden">
+      {/* Slider Section */}
+      <section className="bg-gradient-to-r from-[#FFF5E6] via-[#FFE4C4] to-[#FFD9B3] py-0 overflow-hidden -mt-2">
+        <div className="container mx-auto px-4 overflow-hidden max-w-7xl">
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            spaceBetween={0}
+            slidesPerView={1}
+            autoplay={{
+              delay: 5000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+              bulletActiveClass: 'swiper-pagination-bullet-active',
+            }}
+            loop={true}
+            className="food-offer-slider"
+          >
+            {slides.map((slide) => (
+              <SwiperSlide key={slide.key}>
+                <div className="relative grid md:grid-cols-2 gap-6 items-center min-h-[350px] py-8 md:py-10">
+                  {/* Left Side - Set Information */}
+                  <div className="space-y-4 px-4 md:px-8 z-10">
+                    {/* Set Title */}
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 uppercase">
+                      {slide.title}
+                    </h2>
 
-            {/* Delivery Links */}
-            <div className="mt-4 flex flex-col sm:flex-row gap-3 justify-center">
-              <a
-                href="https://food.bolt.eu/ru-ru/335/p/177018-qutabxana-n1-neftchiler"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-white px-4 py-2 rounded-full font-semibold text-gray-800 hover:bg-primary hover:text-white transition-all shadow-md hover:shadow-lg"
-              >
-                <img src={boltLogo} alt="Bolt Food" className="h-6 w-6 object-contain" />
-                <span>Bolt Food</span>
-              </a>
-              <a
-                href="https://wolt.com/az/aze/baku/restaurant/qutabxana-n1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-white px-4 py-2 rounded-full font-semibold text-gray-800 hover:bg-primary hover:text-white transition-all shadow-md hover:shadow-lg"
-              >
-                <img src={woltLogo} alt="Wolt" className="h-6 w-6 object-contain" />
-                <span>Wolt</span>
-              </a>
-            </div>
-          </div>
+                    {/* Description */}
+                    <p className="text-gray-800 text-sm md:text-base">
+                      {slide.description}
+                    </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-600">
-            <Link
-              to="/menu"
-              className="bg-primary text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl hover:scale-105 transform duration-300"
-            >
-              {t('home.view_menu')}
-            </Link>
-            <Link
-              to="/contact"
-              className="bg-white text-primary px-8 py-3 rounded-full font-semibold border-2 border-primary hover:bg-primary hover:text-white transition-all shadow-lg hover:shadow-xl hover:scale-105 transform duration-300"
-            >
-              {t('home.contact_us')}
-            </Link>
-          </div>
+                    {/* Price & Order Button */}
+                    <div className="flex items-center gap-4 flex-wrap">
+                      <span className="text-4xl md:text-5xl font-bold text-primary">
+                        {slide.price}
+                      </span>
+                      <a
+                        href={`https://wa.me/994514560077?text=${encodeURIComponent(`Salam! ${slide.title} sifarişi vermək istəyirəm.`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-primary hover:bg-opacity-90 text-white font-semibold px-6 py-2.5 rounded-full transition-all shadow-md hover:shadow-lg"
+                      >
+                        {t('menu.order_button')}
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Right Side - Food Images Grid */}
+                  <div className="relative flex items-center justify-center overflow-hidden px-4">
+                    <div className="grid grid-cols-2 gap-4 max-w-md">
+                      {/* Main large image */}
+                      <div className="col-span-2 relative">
+                        <div className="bg-white rounded-2xl shadow-2xl p-4 transform hover:scale-105 transition-transform duration-300">
+                          <img
+                            src={slide.images[0]}
+                            alt={slide.title}
+                            className="w-full h-64 md:h-80 object-cover rounded-xl"
+                          />
+                        </div>
+                      </div>
+                      
+                      {/* Two smaller images */}
+                      <div className="relative">
+                        <div className="bg-white rounded-xl shadow-xl p-3 transform hover:scale-105 transition-transform duration-300">
+                          <img
+                            src={slide.images[1]}
+                            alt={slide.title}
+                            className="w-full h-32 md:h-40 object-cover rounded-lg"
+                          />
+                        </div>
+                      </div>
+                      
+                      <div className="relative">
+                        <div className="bg-white rounded-xl shadow-xl p-3 transform hover:scale-105 transition-transform duration-300">
+                          <img
+                            src={slide.images[2]}
+                            alt={slide.title}
+                            className="w-full h-32 md:h-40 object-cover rounded-lg"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </section>
+
+
 
       {/* Featured Image Section */}
       <section className="py-16 px-4 bg-white overflow-hidden">

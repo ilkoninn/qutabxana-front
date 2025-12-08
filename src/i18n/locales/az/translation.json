@@ -21,7 +21,25 @@
     "fast_service": "Sürətli Xidmət",
     "fast_preparation": "Tez və keyfiyyətli hazırlanma",
     "fresh_products": "Təzə Məhsullar",
-    "daily_fresh": "Hər gün təzə tədarük olunan məhsullar"
+    "daily_fresh": "Hər gün təzə tədarük olunan məhsullar",
+    "slider": {
+      "qutab_set_1": {
+        "title": "Qutab seti 1",
+        "description": "2 ət qutabı, 2 qarın qutabı, 2 göy qutabı, 1 sumax, 1 ayran",
+        "price": "8.00 ₼"
+      },
+      "nafarliq_set_3": {
+        "title": "3 nəfərlik set",
+        "description": "3 qarın qutabı, 3 ət qutabı, 3 göy qutabı, Pepsi 1 L, 1 sumax",
+        "price": "15.00 ₼"
+      },
+      "nafarliq_set_4": {
+        "title": "4 nəfərlik set",
+        "description": "4 ət qutabı, 4 qarın qutabı, 4 göy qutabı, 8 kartoflu pirojkı, 1 L Pepsi, 2 sumax, 2 acıka",
+        "price": "18.75 ₼"
+      },
+      "order_button": "Sifariş et"
+    }
   },
   "menu": {
     "title": "Bizim Menyu",

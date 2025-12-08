@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-r from-[#FFF5E6] via-[#FFE4C4] to-[#FFD9B3] text-gray-800">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo & Name */}
           <div>
@@ -61,17 +61,17 @@ const Footer = () => {
             <h4 className="font-semibold mb-3 text-lg text-gray-800">
               {t("footer.order_online")}
             </h4>
-            <div className="space-y-2">
+            <div className="space-y-2 flex flex-col w-fit">
               <a
                 href="https://food.bolt.eu/ru-ru/335/p/177018-qutabxana-n1-neftchiler"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-lg hover:bg-primary hover:text-white transition-colors text-gray-800"
+                className="flex items-center gap-2 bg-[#34D186] text-white px-3 py-2 rounded-lg hover:opacity-90 transition-opacity w-full"
               >
                 <img
                   src={boltLogo}
                   alt="Bolt Food"
-                  className="h-6 w-6 object-contain"
+                  className="h-5 w-5 object-contain"
                 />
                 <span className="text-sm font-medium">Bolt Food</span>
               </a>
@@ -79,12 +79,12 @@ const Footer = () => {
                 href="https://wolt.com/az/aze/baku/restaurant/qutabxana-n1"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-white px-3 py-1.5 rounded-lg hover:bg-primary hover:text-white transition-colors text-gray-800"
+                className="flex items-center gap-2 bg-[#0080C8] text-white px-3 py-2 rounded-lg hover:opacity-90 transition-opacity w-full"
               >
                 <img
                   src={woltLogo}
                   alt="Wolt"
-                  className="h-6 w-6 object-contain"
+                  className="h-5 w-5 object-contain"
                 />
                 <span className="text-sm font-medium">Wolt</span>
               </a>
