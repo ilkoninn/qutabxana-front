@@ -124,14 +124,14 @@ const Contact = () => {
           {/* Map */}
           <div className="bg-white p-2 rounded-2xl shadow-md animate-slide-in-right hover:shadow-xl transition-all duration-300">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3039.247!2d49.83188864!3d40.39562123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDIzJzQ0LjIiTiA0OcKwNDknNTQuOCJF!5e0!3m2!1sen!2saz!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3038.8876!2d49.9287375!3d40.4136661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDI0JzQ5LjIiTiA0OcKwNTUnNDMuNSJF!5e0!3m2!1sen!2saz!4v1733654321"
               width="100%"
               height="350"
               style={{ border: 0, borderRadius: '1rem' }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Location Map"
+              title="Qutabxana N1 Location"
             ></iframe>
           </div>
         </div>

@@ -114,7 +114,9 @@ const Footer = () => {
                 <p className="font-semibold text-gray-800 mb-1">{t("footer.social_media")}</p>
                 <div className="flex gap-3 mt-2">
                   <a
-                    href="#"
+                    href="https://www.facebook.com/share/1BeXQ4sNQS/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors text-gray-800"
                     aria-label="Facebook"
                   >
@@ -127,7 +129,9 @@ const Footer = () => {
                     </svg>
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/qutabxana.az"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-8 h-8 bg-white rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors text-gray-800"
                     aria-label="Instagram"
                   >

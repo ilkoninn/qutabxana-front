@@ -12,7 +12,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img src={logo} alt="Qutabxana N1" className="h-20" />
+            <img src={logo} alt="Qutabxana N1" className="h-16 md:h-20" />
+            <span className="hidden sm:inline text-xl md:text-2xl text-gray-800 -ml-2">
+              Qutabxana <span className="font-bold">N1</span>
+            </span>
           </Link>
 
           {/* Navigation */}
