@@ -17,8 +17,11 @@ const Header = () => {
         <div className="container mx-auto px-4 py-3 max-w-7xl">
           <div className="flex items-center justify-between gap-4">
             {/* Logo */}
-            <Link to="/" className="flex items-center">
+            <Link to="/" className="flex items-center gap-3">
               <img src={logo} alt="Qutabxana N1" className="h-16 md:h-20" />
+              <span className="text-lg md:text-xl font-sans font-normal text-gray-800 uppercase tracking-wide">
+                Qutabxana <span className="font-bold">N1</span>
+              </span>
             </Link>
 
             {/* Desktop Navigation */}
