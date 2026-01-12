@@ -4,7 +4,7 @@ import etQutabImage from '../assets/menu/qutabs/img2.png';
 import qarinQutabImage from '../assets/menu/qutabs/img3.png';
 import sorQutabImage from '../assets/menu/qutabs/img4.png';
 import sorluGoyluQutabImage from '../assets/menu/qutabs/img5.png';
-import ciyerQutabImage from '../assets/menu/qutabs/img6.png';
+// import ciyerQutabImage from '../assets/menu/qutabs/img6.png';
 import kartofPureliQutabImage from '../assets/menu/qutabs/img6.png';
 import kartofPureliVeEtliQutabImage from '../assets/menu/qutabs/img8.png';
 import maxiQutabImage from '../assets/menu/qutabs/img9.png';
@@ -33,15 +33,19 @@ import pepsi1 from '../assets/menu/drinks/img13.png';
 import mirinda5 from '../assets/menu/drinks/img14.png';
 import vitaQazsiz5 from '../assets/menu/drinks/img15.png';
 import vitaQazli5 from '../assets/menu/drinks/img16.png';
-import sandora2 from '../assets/menu/drinks/img17.png';
-import naturaShaf2 from '../assets/menu/drinks/img18.png';
-import naturaMult2 from '../assets/menu/drinks/img19.png';
-import fruktoviy2 from '../assets/menu/drinks/img20.png';
-import liptonShaf5 from '../assets/menu/drinks/img21.png';
-import liptonShaf1 from '../assets/menu/drinks/img23.png';
+// import sandora2 from '../assets/menu/drinks/img17.png';
+// import naturaShaf2 from '../assets/menu/drinks/img18.png';
+// import naturaMult2 from '../assets/menu/drinks/img19.png';
+// import fruktoviy2 from '../assets/menu/drinks/img20.png';
+// import liptonShaf5 from '../assets/menu/drinks/img21.png';
+// import liptonShaf1 from '../assets/menu/drinks/img23.png';
 
 import keks from '../assets/menu/desserts/img1.png';
 import kurabiye from '../assets/menu/desserts/img2.png';
+import burma from '../assets/menu/desserts/img3.png';
+
+import gurcuXengeli from '../assets/menu/doughs/img1.png';
+import dusbereXirda from '../assets/menu/doughs/img2.png';
 
 import agdashSoru from '../assets/menu/dairy/img1.png';
 
@@ -60,7 +64,7 @@ export const qutabs = [
       en: "Spinach, coriander, green onion, dill",
       ru: "Шпинат, кинза, зеленый лук, укроп"
     },
-    price: "1.20 ₼",
+    price: "1.00 ₼",
     image: goyQutabImage,
     popular: true
   },
@@ -76,7 +80,7 @@ export const qutabs = [
       en: "Meat, salt, pepper",
       ru: "Мясо, соль, перец"
     },
-    price: "1.75 ₼",
+    price: "1.95 ₼",
     image: etQutabImage,
     popular: true
   },
@@ -92,7 +96,7 @@ export const qutabs = [
       en: "Minced meat, internal fat, salt, pepper",
       ru: "Фарш, внутренний жир, соль, перец"
     },
-    price: "1.25 ₼",
+    price: "1.00 ₼",
     image: qarinQutabImage,
     popular: true
   },
@@ -119,28 +123,28 @@ export const qutabs = [
       ru: "Кутаб с сыром и зеленью"
     },
     description: {
-      az: "Şit, göy soğan, düz, istiot",
-      en: "Cheese, green onion, salt, pepper",
-      ru: "Сыр, зеленый лук, соль, перец"
+      az: "Ağdaş şoru, keşniş, şüyüd, yaşıl soğan, ispanaq, yaş nana, dağ keşnişi",
+      en: "Agdash cheese, coriander, dill, green onion, spinach, fresh mint, mountain coriander",
+      ru: "Агдашский сыр, кинза, укроп, зеленый лук, шпинат, свежая мята, горная кинза"
     },
-    price: "1.25 ₼",
+    price: "1.65 ₼",
     image: sorluGoyluQutabImage
   },
-  {
-    id: 6,
-    name: {
-      az: "Ciyər Qutabı",
-      en: "Liver Qutab",
-      ru: "Кутаб с печенью"
-    },
-    description: {
-      az: "Ciyər, düz, istiot",
-      en: "Liver, salt, pepper",
-      ru: "Печень, соль, перец"
-    },
-    price: "1.00 ₼",
-    image: ciyerQutabImage
-  },
+  // {
+  //   id: 6,
+  //   name: {
+  //     az: "Ciyər Qutabı",
+  //     en: "Liver Qutab",
+  //     ru: "Кутаб с печенью"
+  //   },
+  //   description: {
+  //     az: "Ciyər, düz, istiot",
+  //     en: "Liver, salt, pepper",
+  //     ru: "Печень, соль, перец"
+  //   },
+  //   price: "1.00 ₼",
+  //   image: ciyerQutabImage
+  // },
   {
     id: 7,
     name: {
@@ -168,7 +172,7 @@ export const qutabs = [
       en: "Meat, mashed potato, salt, pepper",
       ru: "Мясо, картофельное пюре, соль, перец"
     },
-    price: "2.00 ₼",
+    price: "2.20 ₼",
     image: kartofPureliVeEtliQutabImage
   },
   {
@@ -183,7 +187,7 @@ export const qutabs = [
       en: "Pumpkin",
       ru: "Тыква"
     },
-    price: "1.25 ₼",
+    price: "1.70 ₼",
     image: balqabaqQutabImage 
   },
   {
@@ -217,7 +221,7 @@ export const friedItems = [
       en: "Potato piroshki",
       ru: "Картофельные пирожки"
     },
-    price: "0.60 ₼",
+    price: "0.70 ₼",
     image: sadePirojki
   }
 ];
@@ -285,6 +289,22 @@ export const sauces = [
     },
     price: "1.00 ₼",
     image: xama
+  },
+  {
+    id: 12,
+    name: {
+      az: "Pul bibəri",
+      en: "Crushed Red Pepper",
+      ru: "Дробленый красный перец"
+    },
+    description: {
+      az: "İsmayıllı pul bibəri",
+      en: "Ismayilli crushed red pepper",
+      ru: "Исмаиллинский дробленый красный перец"
+    },
+    price: "0.50 ₼",
+    image: sumax,
+    popular: true
   }
 ];
 
@@ -318,7 +338,7 @@ export const beverages = [
       en: "Traditional dovga",
       ru: "Традиционная довга"
     },
-    price: "1.50 ₼",
+    price: "1.65 ₼",
     volume: "300ml",
     image: ayran
   },
@@ -362,7 +382,7 @@ export const beverages = [
       en: "Coca-Cola 500ml",
       ru: "Кока-Кола 500мл"
     },
-    price: "2.00 ₼",
+    price: "1.95 ₼",
     volume: "500ml",
     image: cola5
   },
@@ -373,7 +393,7 @@ export const beverages = [
       en: "Fanta 500ml",
       ru: "Фанта 500мл"
     },
-    price: "2.00 ₼",
+    price: "1.95 ₼",
     volume: "500ml",
     image: fanta5
   },
@@ -384,7 +404,7 @@ export const beverages = [
       en: "Sprite 500ml",
       ru: "Спрайт 500мл"
     },
-    price: "2.00 ₼",
+    price: "1.95 ₼",
     volume: "500ml",
     image: sprite5
   },
@@ -486,62 +506,62 @@ export const beverages = [
     price: "1.00 ₼",
     volume: "500ml",
     image: vitaQazli5
-  },
-  {
-    id: 32,
-    name: {
-      az: "Sandora Multivitamin 250ml",
-      en: "Sandora Multivitamin 250ml",
-      ru: "Сандора Мультивитамин 250мл"
-    },
-    price: "1.70 ₼",
-    volume: "250ml",
-    image: sandora2
-  },
-  {
-    id: 33,
-    name: {
-      az: "Natura Şaftalı 200ml",
-      en: "Natura Peach 200ml",
-      ru: "Натура Персик 200мл"
-    },
-    price: "1.00 ₼",
-    volume: "200ml",
-    image: naturaShaf2
-  },
-  {
-    id: 34,
-    name: {
-      az: "Natura Multivitamin 200ml",
-      en: "Natura Multivitamin 200ml",
-      ru: "Натура Мультивитамин 200мл"
-    },
-    price: "1.00 ₼",
-    volume: "200ml",
-    image: naturaMult2
-  },
-  {
-    id: 35,
-    name: {
-      az: "Fruktovıy Sad Şaftalı Alma 200ml",
-      en: "Fruktoviy Sad Peach Apple 200ml",
-      ru: "Фруктовый Сад Персик Яблоко 200мл"
-    },
-    price: "1.00 ₼",
-    volume: "200ml",
-    image: fruktoviy2
-  },
-  {
-    id: 36,
-    name: {
-      az: "Lipton Şaftalı İce Tea 500ml",
-      en: "Lipton Peach Ice Tea 500ml",
-      ru: "Липтон Персик Айс Ти 500мл"
-    },
-    price: "1.80 ₼",
-    volume: "500ml",
-    image: liptonShaf5
-  },
+  }
+  // {
+  //   id: 32,
+  //   name: {
+  //     az: "Sandora Multivitamin 250ml",
+  //     en: "Sandora Multivitamin 250ml",
+  //     ru: "Сандора Мультивитамин 250мл"
+  //   },
+  //   price: "1.70 ₼",
+  //   volume: "250ml",
+  //   image: sandora2
+  // },
+  // {
+  //   id: 33,
+  //   name: {
+  //     az: "Natura Şaftalı 200ml",
+  //     en: "Natura Peach 200ml",
+  //     ru: "Натура Персик 200мл"
+  //   },
+  //   price: "1.00 ₼",
+  //   volume: "200ml",
+  //   image: naturaShaf2
+  // },
+  // {
+  //   id: 34,
+  //   name: {
+  //     az: "Natura Multivitamin 200ml",
+  //     en: "Natura Multivitamin 200ml",
+  //     ru: "Натура Мультивитамин 200мл"
+  //   },
+  //   price: "1.00 ₼",
+  //   volume: "200ml",
+  //   image: naturaMult2
+  // },
+  // {
+  //   id: 35,
+  //   name: {
+  //     az: "Fruktovıy Sad Şaftalı Alma 200ml",
+  //     en: "Fruktoviy Sad Peach Apple 200ml",
+  //     ru: "Фруктовый Сад Персик Яблоко 200мл"
+  //   },
+  //   price: "1.00 ₼",
+  //   volume: "200ml",
+  //   image: fruktoviy2
+  // },
+  // {
+  //   id: 36,
+  //   name: {
+  //     az: "Lipton Şaftalı İce Tea 500ml",
+  //     en: "Lipton Peach Ice Tea 500ml",
+  //     ru: "Липтон Персик Айс Ти 500мл"
+  //   },
+  //   price: "1.80 ₼",
+  //   volume: "500ml",
+  //   image: liptonShaf5
+  // },
   // {
   //   id: 37,
   //   name: {
@@ -553,17 +573,17 @@ export const beverages = [
   //   volume: "500ml",
   //   image: liptonLim5
   // },
-  {
-    id: 38,
-    name: {
-      az: "Lipton Şaftalı İce Tea 1L",
-      en: "Lipton Peach Ice Tea 1L",
-      ru: "Липтон Персик Айс Ти 1Л"
-    },
-    price: "2.50 ₼",
-    volume: "1L",
-    image: liptonShaf1
-  }
+  // {
+  //   id: 38,
+  //   name: {
+  //     az: "Lipton Şaftalı İce Tea 1L",
+  //     en: "Lipton Peach Ice Tea 1L",
+  //     ru: "Липтон Персик Айс Ти 1Л"
+  //   },
+  //   price: "2.50 ₼",
+  //   volume: "1L",
+  //   image: liptonShaf1
+  // }
 ];
 
 // DESSERTS (DESERT)
@@ -597,6 +617,57 @@ export const desserts = [
     },
     price: "0.70 ₼",
     image: kurabiye
+  },
+  {
+    id: 43,
+    name: {
+      az: "Burma",
+      en: "Burma",
+      ru: "Бурма"
+    },
+    description: {
+      az: "Dadlı burma",
+      en: "Delicious burma",
+      ru: "Вкусная бурма"
+    },
+    price: "0.70 ₼",
+    image: burma
+  }
+];
+
+// DOUGH SEMIFINISHED PRODUCTS (XƏMİR YARIMFABRİKATLAR)
+export const doughs = [
+  {
+    id: 44,
+    name: {
+      az: "Gürcü xəngəli",
+      en: "Georgian Khinkali",
+      ru: "Грузинские хинкали"
+    },
+    description: {
+      az: "10 ədəd, AZN 1.50 / ədəd",
+      en: "10 pcs, AZN 1.50 / pc",
+      ru: "10 шт, AZN 1.50 / шт"
+    },
+    price: "15.00 ₼",
+    quantity: "10 ədəd",
+    image: gurcuXengeli
+  },
+  {
+    id: 45,
+    name: {
+      az: "Düşbərə xırda",
+      en: "Dushbara Small",
+      ru: "Дюшбара мелкая"
+    },
+    description: {
+      az: "300 q, AZN 4.00 / 100 qr",
+      en: "300 g, AZN 4.00 / 100 g",
+      ru: "300 г, AZN 4.00 / 100 г"
+    },
+    price: "12.00 ₼",
+    weight: "300q",
+    image: dusbereXirda
   }
 ];
 
@@ -643,5 +714,6 @@ export const menuItems = [
   ...sauces,
   ...beverages,
   ...desserts,
+  ...doughs,
   ...dairyProducts
 ];

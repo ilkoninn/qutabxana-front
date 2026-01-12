@@ -23,20 +23,35 @@
     "fresh_products": "Fresh Products",
     "daily_fresh": "Daily fresh products",
     "slider": {
-      "qutab_set_1": {
-        "title": "Qutab Set 1",
-        "description": "2 meat qutabs, 2 cheese qutabs, 2 greens qutabs, 1 sumac, 1 ayran",
-        "price": "8.00 ₼"
+      "goy_kombo": {
+        "title": "Greens Combo",
+        "description": "4 greens qutabs, 4 potato piroshki, 1 spicy sauce, 1 sumac, 2 ayran, 1 yogurt (200g)",
+        "price": "9.00 ₼"
+      },
+      "qarin_kombo": {
+        "title": "Minced Meat Combo",
+        "description": "4 minced meat qutabs, 4 potato piroshki, 1 spicy sauce, 1 sumac, 2 ayran",
+        "price": "9.00 ₼"
+      },
+      "et_kombo": {
+        "title": "Meat Combo",
+        "description": "4 meat qutabs, 4 potato piroshki, 1 spicy sauce, 1 sumac, 2 ayran",
+        "price": "12.00 ₼"
       },
       "nafarliq_set_3": {
         "title": "Set for 3",
-        "description": "3 cheese qutabs, 3 meat qutabs, 3 greens qutabs, Pepsi 1 L, 1 sumac",
+        "description": "3 minced meat qutabs, 3 meat qutabs, 3 greens qutabs, 6 potato piroshki, Pepsi 1 L, 1 sumac, 1 spicy sauce, 1 yogurt (200g)",
         "price": "15.00 ₼"
       },
       "nafarliq_set_4": {
-        "title": "Set for 4 people",
-        "description": "4 meat qutabs, 4 pumpkin qutabs, 4 greens qutabs, 8 potato pies, 1 L Pepsi, 2 sumac, 2 hot sauces",
-        "price": "18.75 ₼"
+        "title": "Set for 4",
+        "description": "4 meat qutabs, 4 minced meat qutabs, 4 greens qutabs, 8 potato piroshki, 1 L Pepsi, 2 sumac, 2 spicy sauce, 1 yogurt (400g)",
+        "price": "20.00 ₼"
+      },
+      "qutab_kombo_1": {
+        "title": "Qutab Combo 1",
+        "description": "10 meat qutabs, 10 greens qutabs, 1 L Coca-Cola, 2 sumac, 1 yogurt (400g)",
+        "price": "30.00 ₼"
       },
       "order_button": "Order Now"
     }
@@ -50,6 +65,7 @@
       "sauces": "Sauces",
       "beverages": "Beverages",
       "desserts": "Desserts",
+      "doughs": "Dough Semifinished Products",
       "dairy": "Dairy Products"
     }
   },

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { qutabs, friedItems, sauces, beverages, desserts, dairyProducts } from '../data/menuItems';
+import { qutabs, friedItems, sauces, beverages, desserts, doughs, dairyProducts } from '../data/menuItems';
 
 const MenuSection = ({ title, items, i18n, t }) => (
   <div className="mb-16">
@@ -73,7 +73,12 @@ const Menu = () => {
         <MenuSection title={t('menu.categories.fried')} items={friedItems} i18n={i18n} t={t} />
         <MenuSection title={t('menu.categories.sauces')} items={sauces} i18n={i18n} t={t} />
         <MenuSection title={t('menu.categories.beverages')} items={beverages} i18n={i18n} t={t} />
-        <MenuSection title={t('menu.categories.desserts')} items={desserts} i18n={i18n} t={t} />
+        {desserts && desserts.length > 0 && (
+          <MenuSection title={t('menu.categories.desserts')} items={desserts} i18n={i18n} t={t} />
+        )}
+        {doughs && doughs.length > 0 && (
+          <MenuSection title={t('menu.categories.doughs')} items={doughs} i18n={i18n} t={t} />
+        )}
         <MenuSection title={t('menu.categories.dairy')} items={dairyProducts} i18n={i18n} t={t} />
       </div>
     </div>

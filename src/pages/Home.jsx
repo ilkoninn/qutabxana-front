@@ -4,7 +4,7 @@ import home1 from '../assets/home/home1.jpg';
 import qutab1 from '../assets/menu/qutabs/img1.png';
 import qutab2 from '../assets/menu/qutabs/img2.png';
 import qutab3 from '../assets/menu/qutabs/img3.png';
-import qutab7 from '../assets/menu/qutabs/img7.png';
+// import qutab7 from '../assets/menu/qutabs/img7.png';
 import pirojki1 from '../assets/menu/pirojkis/img1.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
@@ -17,25 +17,46 @@ const Home = () => {
   // Use different images for each slide (pre-selected variety)
   const slides = [
     {
-      key: 'qutab_set_1',
-      title: t('home.slider.qutab_set_1.title'),
-      description: t('home.slider.qutab_set_1.description'),
-      price: t('home.slider.qutab_set_1.price'),
-      images: [qutab2, qutab1, qutab3],
+      key: 'goy_kombo',
+      title: t('home.slider.goy_kombo.title'),
+      description: t('home.slider.goy_kombo.description'),
+      price: t('home.slider.goy_kombo.price'),
+      images: [qutab1, pirojki1, qutab1],
+    },
+    {
+      key: 'qarin_kombo',
+      title: t('home.slider.qarin_kombo.title'),
+      description: t('home.slider.qarin_kombo.description'),
+      price: t('home.slider.qarin_kombo.price'),
+      images: [qutab3, pirojki1, qutab3],
+    },
+    {
+      key: 'et_kombo',
+      title: t('home.slider.et_kombo.title'),
+      description: t('home.slider.et_kombo.description'),
+      price: t('home.slider.et_kombo.price'),
+      images: [qutab2, pirojki1, qutab2],
     },
     {
       key: 'nafarliq_set_3',
       title: t('home.slider.nafarliq_set_3.title'),
       description: t('home.slider.nafarliq_set_3.description'),
       price: t('home.slider.nafarliq_set_3.price'),
-      images: [qutab7, qutab2, qutab1],
+      images: [qutab3, qutab2, qutab1],
     },
     {
       key: 'nafarliq_set_4',
       title: t('home.slider.nafarliq_set_4.title'),
       description: t('home.slider.nafarliq_set_4.description'),
       price: t('home.slider.nafarliq_set_4.price'),
-      images: [pirojki1, qutab3, qutab7],
+      images: [qutab2, qutab3, pirojki1],
+    },
+    {
+      key: 'qutab_kombo_1',
+      title: t('home.slider.qutab_kombo_1.title'),
+      description: t('home.slider.qutab_kombo_1.description'),
+      price: t('home.slider.qutab_kombo_1.price'),
+      images: [qutab2, qutab1, qutab3],
     },
   ];
 

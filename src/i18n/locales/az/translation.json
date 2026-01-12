@@ -23,20 +23,35 @@
     "fresh_products": "Təzə Məhsullar",
     "daily_fresh": "Hər gün təzə tədarük olunan məhsullar",
     "slider": {
-      "qutab_set_1": {
-        "title": "Qutab seti 1",
-        "description": "2 ət qutabı, 2 qarın qutabı, 2 göy qutabı, 1 sumax, 1 ayran",
-        "price": "8.00 ₼"
+      "goy_kombo": {
+        "title": "Göy Kombo",
+        "description": "4 göy qutabı, 4 kartoflu pirojki, 1 acıka, 1 sumax, 2 ayran, 1 qatıq (200 qr)",
+        "price": "9.00 ₼"
+      },
+      "qarin_kombo": {
+        "title": "Qarın Kombo",
+        "description": "4 qarın qutabı, 4 kartoflu pirojki, 1 acıka, 1 sumax, 2 ayran",
+        "price": "9.00 ₼"
+      },
+      "et_kombo": {
+        "title": "Ət Kombo",
+        "description": "4 ət qutabı, 4 kartoflu pirojki, 1 acıka, 1 sumax, 2 ayran",
+        "price": "12.00 ₼"
       },
       "nafarliq_set_3": {
         "title": "3 nəfərlik set",
-        "description": "3 qarın qutabı, 3 ət qutabı, 3 göy qutabı, Pepsi 1 L, 1 sumax",
+        "description": "3 qarın qutabı, 3 ət qutabı, 3 göy qutabı, 6 kartoflu pirojki, Pepsi 1 L, 1 sumax, 1 acıka, 1 qatıq (200 qr)",
         "price": "15.00 ₼"
       },
       "nafarliq_set_4": {
         "title": "4 nəfərlik set",
-        "description": "4 ət qutabı, 4 qarın qutabı, 4 göy qutabı, 8 kartoflu pirojkı, 1 L Pepsi, 2 sumax, 2 acıka",
-        "price": "18.75 ₼"
+        "description": "4 ət qutabı, 4 qarın qutabı, 4 göy qutabı, 8 kartoflu pirojki, 1 L Pepsi, 2 sumax, 2 acıka, 1 qatıq (400 qr)",
+        "price": "20.00 ₼"
+      },
+      "qutab_kombo_1": {
+        "title": "Qutab Kombo 1",
+        "description": "10 ət qutabı, 10 göy qutabı, 1 L Coca-Cola, 2 sumax, 1 qatıq (400 qr)",
+        "price": "30.00 ₼"
       },
       "order_button": "Sifariş et"
     }
@@ -50,6 +65,7 @@
       "sauces": "Souslar",
       "beverages": "İçkilər",
       "desserts": "Desertlər",
+      "doughs": "Xəmir Yarımfabrikatlar",
       "dairy": "Süd və Süd Məhsulları"
     }
   },
